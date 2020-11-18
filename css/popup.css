@@ -26,6 +26,16 @@ img#popup-close {
     cursor: pointer;
 }
 
+#popup-error {
+    width: 238px;
+    display: none;
+    margin-top: 15px;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid #ff0000;
+    background-color: #ff8080;
+}
+
 div#popup-log {
     position: absolute;
     left: 50%;
@@ -67,6 +77,14 @@ div#popup-log {
     font-family: Raleway, sans-serif;
 }
 
+.popup-pass {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+}
+
 .popup-div-img {
     display: flex;
     flex-direction: row;
@@ -77,14 +95,6 @@ div#popup-log {
     width: 40px;
     height: 38px;
     border: 1px solid #ccc;
-}
-
-.popup-pass {
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 16px;
-    font-family: Raleway, sans-serif;
 }
 
 #popup-submit {
