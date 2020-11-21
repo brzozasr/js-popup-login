@@ -223,11 +223,6 @@ export let popupLoginHiding = {
         }
     },
 
-    // Compares passwords from the Form Fields Password and Confirm Password
-    comparePasswords: function (pass1, pass2) {
-        return pass1 === pass2;
-    },
-
     logoutUser: function () {
 
     },
